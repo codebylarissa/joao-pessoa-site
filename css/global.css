@@ -1,10 +1,10 @@
 :root{
   --background-color: #F7F9F6;
-  --title-color: #1B3B2B;
+  --main-text-color: #2f664a;
   --text-color: #333333;
   --buttom-color: #10B981;
   --link-color: #E5C158;
-  
+
   --menu-text-weight: 500;
   --text-weight: 400;
 }
@@ -17,4 +17,5 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  background-color: var(--background-color);
 }
