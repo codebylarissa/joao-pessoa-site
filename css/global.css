@@ -1,9 +1,9 @@
-:root{
-  --background-color: #F7F9F6;
-  --main-text-color: #1B3B2B;
+:root {
+  --background-color: #f7f9f6;
+  --main-text-color: #1b3b2b;
   --text-color: #333333;
-  --buttom-color: #10B981;
-  --link-color: #E5C158;
+  --buttom-color: #10b981;
+  --link-color: #e5c158;
 
   --menu-text-weight: 500;
   --text-weight: 400;
@@ -19,4 +19,16 @@
 body {
   font-family: "Montserrat", sans-serif;
   background-color: var(--background-color);
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    padding: 22px 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    padding: 22px 66px;
+  }
 }
