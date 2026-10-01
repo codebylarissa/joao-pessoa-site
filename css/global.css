@@ -1,9 +1,11 @@
 :root {
   --background-color: #f7f9f6;
-  --main-text-color: #1b3b2b;
-  --text-color: #333333;
-  --buttom-color: #10b981;
+  --title-text-color: #1b3b2b;
+  --text-primary-color: #333333;
+  --text-secondary-color:#f7f9f6;
+  --button-color: #10b981;
   --link-color: #e5c158;
+  --footer-background:#0f3822;
 
   --menu-text-weight: 500;
   --text-weight: 400;
