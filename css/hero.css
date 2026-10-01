@@ -18,15 +18,16 @@
 
 @media screen and (min-width: 768px) {
   .hero {
-    padding: 22px 48px;
+    padding: 22px 90px;
   }
+
   .hero-img {
     height: 620px;
     background-image: url(../img/hero-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    border-radius: 18px;
+    border-radius: 16px;
   }
 
   .hero h1 {
