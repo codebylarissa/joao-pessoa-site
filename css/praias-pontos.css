@@ -1,0 +1,100 @@
+main h1 {
+  color: var(--title-text-color);
+  font-size: 24px;
+  font-weight: var(--title-text-weight);
+  text-align: center;
+}
+
+main hr {
+  background-color: var(--button-color);
+  width: 180px;
+  height: 4px;
+  border: none;
+  margin: 10px auto 32px;
+}
+
+.abouts {
+  padding: 0 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 66px;
+}
+
+.about img {
+  width: 100%;
+  height: 250px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.about h2 {
+  font-size: 22px;
+  color: var(--title-text-color);
+  font-weight: var(--title-text-weight);
+  margin-bottom: 8px;
+}
+
+.about p {
+  color: var(--text-primary-color);
+  font-weight: var(--text-weight);
+  font-size: 16px;
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+
+.about a {
+  color: var(--text-primary-color);
+  font-weight: var(--menu-text-weight);
+  font-size: 16px;
+  text-decoration: underline;
+  text-decoration-color: var(--text-primary-color);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+.about a:hover {
+  color: var(--link-color);
+  text-decoration: underline;
+  text-decoration-color: var(--link-color);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .about {
+    display: flex;
+    gap: 32px;
+    margin-top: 32px;
+  }
+
+  .info {
+    margin-top: 18px;
+  }
+
+  .about img {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main h1 {
+    font-size: 32px;
+  }
+
+  .abouts {
+    margin-top: 66px;
+  }
+
+  .about img {
+    height: 280px;
+  }
+
+  .about h2 {
+    font-size: 26px;
+  }
+
+  .about p,
+  .about a {
+    font-size: 18px;
+  }
+}
