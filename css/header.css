@@ -23,6 +23,10 @@ header {
   display: none;
 }
 
+.navigation-menu {
+  margin-top: 10px;
+}
+
 #menu-btn {
   background-color: transparent;
   border: none;
@@ -35,13 +39,14 @@ header {
 
 #menu {
   position: absolute;
-  top: 100%;
+  top: 99%;
   left: 0;
   width: 100%;
-  padding-left: 48px;
+  padding: 0 0 10px 48px;
+  background-color: var(--background-color);
 }
 
-.hidden {
+.oculto {
   display: none;
 }
 
@@ -68,6 +73,7 @@ header {
   #menu {
     position: static;
     display: block;
+    width: 100%;
   }
 
   .navigation-menu {
