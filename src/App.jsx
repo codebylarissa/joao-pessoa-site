@@ -2,6 +2,7 @@ import "./css/style.css";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 import { Cards } from "./components/Cards"
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
         <Hero />
         <Cards />
       </main>
-      
+      <Footer />
     </div>
   );
 }
