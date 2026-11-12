@@ -1,4 +1,7 @@
 import { Link } from "react-router-dom";
+import logoMobile from "../assets/img/logo-mobile.png";
+import logoDesktop from "../assets/img/logo-desktop.png";
+import menuHamburguer from "../assets/img/hamburguer.png";
 
 export function Header() {
   function exibirMenu() {
@@ -11,12 +14,12 @@ export function Header() {
   return (
     <header>
       <Link className="logo" to="/">
-        <img src="img/log-mobile.png" alt="" className="img-logo-mobile" />
-        <img src="img/logo-desktop.png" alt="" className="img-logo-desktop" />
+        <img src={logoMobile} alt="" className="img-logo-mobile" />
+        <img src={logoDesktop} alt="" className="img-logo-desktop" />
       </Link>
       <div className="navigation-menu">
         <button onClick={exibirMenu} id="menu-btn">
-          <img src="img/hamburger.png" alt="Menu hamburger" />
+          <img src={menuHamburguer} alt="Menu hamburguer" />
         </button>
         <nav id="menu" className="oculto">
           <ul className="list-links">

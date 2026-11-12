@@ -1,3 +1,7 @@
+import praiaTambau from "../assets/img/praia-tambau.avif";
+import praiaCaboBranco from "../assets/img/praia-cabo-branco.avif"
+import praiaPontaSeixa from "../assets/img/praia-ponta-seixas.avif";
+
 export function Praias() {
   return (
     <>
@@ -5,7 +9,7 @@ export function Praias() {
       <hr />
       <section className="abouts">
         <div className="about">
-          <img src="/img/praia-tambau.avif" alt="Praia de Tambaú" />
+          <img src={praiaTambau} alt="Praia de Tambaú" />
           <div className="info">
             <h2>Praia de Tambaú</h2>
             <p>
@@ -25,7 +29,7 @@ export function Praias() {
         </div>
 
         <div className="about">
-          <img src="/img/praia-cabo-branco.avif" alt="Praia de Cabo Branco" />
+          <img src={praiaCaboBranco} alt="Praia de Cabo Branco" />
           <div className="info">
             <h2>Praia de Cabo Branco</h2>
             <p>
@@ -45,7 +49,7 @@ export function Praias() {
         </div>
 
         <div className="about">
-          <img src="/img/praia-ponta-seixas.avif" alt="Ponta do Seixas" />
+          <img src={praiaPontaSeixa} alt="Ponta do Seixas" />
           <div className="info">
             <h2>Ponta do Seixas</h2>
             <p>

@@ -1,3 +1,7 @@
+import farolCaboBranco from "../assets/img/farol-cabo-branco.webp";
+import teatroSantaRoza from "../assets/img/teatro-santa-roza.jpg";
+import parqueSolonLucena from "../assets/img/parque-solon-lucena.jpg";
+
 export function PontosTuristicos() {
   return (
     <>
@@ -5,7 +9,7 @@ export function PontosTuristicos() {
       <hr />
       <section class="abouts">
         <div class="about">
-          <img src="img/farol-cabo-branco.webp" alt="Farol do Cabo Branco" />
+          <img src={farolCaboBranco} alt="Farol do Cabo Branco" />
           <div class="info">
             <h2>Farol do Cabo Branco</h2>
             <p>
@@ -21,7 +25,7 @@ export function PontosTuristicos() {
         </div>
 
         <div class="about">
-          <img src="img/teatro-santa-roza.jpg" alt="Teatro Santa Roza" />
+          <img src={teatroSantaRoza} alt="Teatro Santa Roza" />
           <div class="info">
             <h2>Teatro Santa Roza</h2>
             <p>
@@ -37,7 +41,7 @@ export function PontosTuristicos() {
         </div>
 
         <div class="about">
-          <img src="img/parque-solon-lucena.jpg" alt="Parque Solon de Lucena" />
+          <img src={parqueSolonLucena} alt="Parque Solon de Lucena" />
           <div class="info">
             <h2>Parque Solon de Lucena</h2>
             <p>
