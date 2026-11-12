@@ -34,4 +34,3 @@ export function Cards () {
   );
 }
 
-export default Cards;

@@ -72,4 +72,3 @@ export function Praias() {
   );
 }
 
-export default Praias;

@@ -60,4 +60,3 @@ export function PontosTuristicos() {
   );
 }
 
-export default PontosTuristicos;
