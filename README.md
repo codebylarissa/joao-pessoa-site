@@ -1,8 +1,37 @@
-# React + Vite
+# Visite João Pessoa (React SPA)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um site moderno e responsivo sobre João Pessoa, migrado de HTML estático para uma Single Page Application (SPA) utilizando React, Vite e React Router.
 
-Currently, two official plugins are available:
+## Como Executar o Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Pré-requisitos
+
+Certifique-se de que tem o **Node.js** instalado na sua máquina.
+
+1. Clone o repositório ou baixe os arquivos do projeto.
+2. Abra o terminal na pasta raiz do projeto e instale as dependências executando:
+```bash
+npm install
+```
+
+### Executando o Projeto
+Após a instalação das dependências, execute o comando abaixo para iniciar o servidor de desenvolvimento:
+```bash
+npm run dev
+```
+Em seguida, abra o link gerado no terminal (geralmente http://localhost:5173) no seu navegador.
+
+## Estrutura do Projeto
+```
+joao-pessoa-site/
+├── public/             # Recursos estáticos (imagens, ícones e fontes)
+├── src/                # Código-fonte principal da aplicação
+│   ├── components/     # Componentes reutilizáveis (Header, Footer, Cards, Hero, etc.)
+│   ├── pages/          # Páginas completas (Home, Praias, PontosTuristicos)
+│   ├── css/            # Estilos globais e específicos do projeto
+│   ├── App.jsx         # Componente centralizador e configurador de rotas
+│   └── main.jsx        # Ponto de entrada (entry point) da aplicação React
+├── .gitignore          # Arquivos e pastas ignorados pelo Git
+├── package.json        # Dependências e scripts do projeto
+└── README.md           # Documentação do projeto
+```
