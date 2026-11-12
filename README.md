@@ -1,21 +1,37 @@
-# 🌴 Visite João Pessoa
+# Visite João Pessoa (React SPA)
 
-Site institucional desenvolvido como trabalho acadêmico para apresentar as belezas, praias e principais pontos turísticos da capital da Paraíba.
+Um site moderno e responsivo sobre João Pessoa, migrado de HTML estático para uma Single Page Application (SPA) utilizando React, Vite e React Router.
 
-## 🚀 Tecnologias Utilizadas
+## Como Executar o Projeto
 
-O projeto foi desenvolvido utilizando as tecnologias web fundamentais:
-* **HTML5:** Estruturação semântica das páginas (`index.html`, `praias.html`, `pontos-turisticos.html`).
-* **CSS3:** Estilização visual, layout responsivo e componentes personalizados.
-* **JavaScript:** Interatividade dinâmica, controle do menu de navegação e melhorias na experiência do usúario.
-* **Git e GitHub:** Versionamento de código e controlo de branches.
+### Pré-requisitos
 
-## 📂 Estrutura do Projeto
+Certifique-se de que tem o **Node.js** instalado na sua máquina.
 
-O site é composto por três páginas principais:
-1. `index.html` — Página inicial com a apresentação da cidade e atalhos rápidos.
-2. `praias.html` — Página dedicada às praias (Tambaú, Cabo Branco e Ponta do Seixas).
-3. `pontos.html` — Página dedicada aos pontos turísticos (Farol do Cabo Branco, Teatro Santa Roza e Parque Solon de Lucena).
+1. Clone o repositório ou baixe os arquivos do projeto.
+2. Abra o terminal na pasta raiz do projeto e instale as dependências executando:
+```bash
+npm install
+```
 
-##
-Feito com 💜 por [@codebylarissa](https://github.com/codebylarissa)
+### Executando o Projeto
+Após a instalação das dependências, execute o comando abaixo para iniciar o servidor de desenvolvimento:
+```bash
+npm run dev
+```
+Em seguida, abra o link gerado no terminal (geralmente http://localhost:5173) no seu navegador.
+
+## Estrutura do Projeto
+```
+joao-pessoa-site/
+├── public/             # Recursos estáticos (imagens, ícones e fontes)
+├── src/                # Código-fonte principal da aplicação
+│   ├── components/     # Componentes reutilizáveis (Header, Footer, Cards, Hero, etc.)
+│   ├── pages/          # Páginas completas (Home, Praias, PontosTuristicos)
+│   ├── css/            # Estilos globais e específicos do projeto
+│   ├── App.jsx         # Componente centralizador e configurador de rotas
+│   └── main.jsx        # Ponto de entrada (entry point) da aplicação React
+├── .gitignore          # Arquivos e pastas ignorados pelo Git
+├── package.json        # Dependências e scripts do projeto
+└── README.md           # Documentação do projeto
+```
