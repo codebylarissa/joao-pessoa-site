@@ -1,4 +1,4 @@
-# Visite João Pessoa (React SPA)
+# Visite João Pessoa 
 
 Um site moderno e responsivo sobre João Pessoa, migrado de HTML estático para uma Single Page Application (SPA) utilizando React, Vite e React Router.
 
@@ -24,8 +24,9 @@ Em seguida, abra o link gerado no terminal (geralmente http://localhost:5173) no
 ## Estrutura do Projeto
 ```
 joao-pessoa-site/
-├── public/             # Recursos estáticos (imagens, ícones e fontes)
+├── public/             # Recursos estáticos
 ├── src/                # Código-fonte principal da aplicação
+│   ├── assets/         # Imagens do projeto
 │   ├── components/     # Componentes reutilizáveis (Header, Footer, Cards, Hero, etc.)
 │   ├── pages/          # Páginas completas (Home, Praias, PontosTuristicos)
 │   ├── css/            # Estilos globais e específicos do projeto
