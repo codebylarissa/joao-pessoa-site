@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
 export function Header() {
   function exibirMenu() {
@@ -10,10 +10,10 @@ export function Header() {
 
   return (
     <header>
-      <a href="index.html" className="logo">
+      <Link className="logo" to="/">
         <img src="img/log-mobile.png" alt="" className="img-logo-mobile" />
         <img src="img/logo-desktop.png" alt="" className="img-logo-desktop" />
-      </a>
+      </Link>
       <div className="navigation-menu">
         <button onClick={exibirMenu} id="menu-btn">
           <img src="img/hamburger.png" alt="Menu hamburger" />
@@ -21,13 +21,13 @@ export function Header() {
         <nav id="menu" className="oculto">
           <ul className="list-links">
             <li>
-              <a href="index.html">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="praias.html">Praias</a>
+              <Link to="/praias">Praias</Link>
             </li>
             <li>
-              <a href="pontos-turisticos.html">Pontos Turísticos</a>
+              <Link to="/pontos-turisticos">Pontos Turísticos</Link>
             </li>
           </ul>
         </nav>

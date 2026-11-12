@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export function Cards () {
   return (
     <section class="cards">
@@ -11,7 +13,7 @@ export function Cards () {
             </p>
           </header>
           <footer>
-            <a href="praias.html" class="button">Saiba mais</a>
+            <Link className="button" to="/praias">Saiba mais</Link>
           </footer>
         </article>
 
@@ -25,7 +27,7 @@ export function Cards () {
             </p>
           </header>
           <footer>
-            <a href="pontos-turisticos.html" class="button">Saiba mais</a>
+            <Link className="button" to="/pontos-turisticos">Saiba mais</Link>
           </footer>
         </article>
       </section>
