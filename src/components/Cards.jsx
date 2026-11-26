@@ -1,36 +1,22 @@
 import { Link } from "react-router-dom";
 
-export function Cards () {
+export function Cards({ items = [] }) {
   return (
-    <section class="cards">
-        <article class="card">
+    <section className="cards">
+      {items.map((item) => (
+        <article className="card" key={item.id}>
           <header>
-            <div class="card-img praia"></div>
-            <h2>Praias Paradisíacas</h2>
-            <p>
-              Litorais de águas mornas, coqueirais encantadores e cenários
-              inesquecíveis
-            </p>
+            <div className={item.classeImagem}></div>
+            <h2>{item.titulo}</h2>
+            <p>{item.descricao}</p>
           </header>
           <footer>
-            <Link className="button" to="/praias">Saiba mais</Link>
+            <Link className="button" to={item.to}>
+              Saiba mais
+            </Link>
           </footer>
         </article>
-
-        <article class="card">
-          <header>
-            <div class="card-img ponto-turistico"></div>
-            <h2>Pontos Turísticos</h2>
-            <p>
-              Explore a rica história, a cultura vibrante e os cartões-postais
-              da cidade.
-            </p>
-          </header>
-          <footer>
-            <Link className="button" to="/pontos-turisticos">Saiba mais</Link>
-          </footer>
-        </article>
-      </section>
+      ))}
+    </section>
   );
 }
-

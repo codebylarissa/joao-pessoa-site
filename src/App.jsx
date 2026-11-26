@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import "./css/style.css";
 import { Header } from "./components/Header";
@@ -14,14 +14,12 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/praias" element={<Praias/>}/>
-          <Route path="/pontos-turisticos" element={<PontosTuristicos/>}/>
+          <Route path="/praias" element={<Praias />} />
+          <Route path="/pontos-turisticos" element={<PontosTuristicos />} />
         </Routes>
       </main>
       <Footer />
     </BrowserRouter>
-
-    
   );
 }
 

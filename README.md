@@ -30,6 +30,7 @@ joao-pessoa-site/
 │   ├── components/     # Componentes reutilizáveis (Header, Footer, Cards, Hero, etc.)
 │   ├── pages/          # Páginas completas (Home, Praias, PontosTuristicos)
 │   ├── css/            # Estilos globais e específicos do projeto
+|   ├── data/           # Dados separados da interface
 │   ├── App.jsx         # Componente centralizador e configurador de rotas
 │   └── main.jsx        # Ponto de entrada (entry point) da aplicação React
 ├── .gitignore          # Arquivos e pastas ignorados pelo Git
